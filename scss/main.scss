@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&display=swap");
+@import "config";
+@import "btns";
+
+/* General */
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: "Baloo 2", cursive;
+  background: $background-color;
+}
+
+#side-margins {
+  margin-top: 120px;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+#sun-logo {
+  margin-top: 80px;
+  height: 100px;
+}
+
+.location-icon-yellow {
+  float: left;
+  margin-right: 16px;
+}
+
+h1 {
+  margin-top: 60px;
+  color: $primary-color;
+  font-size: 48pt;
+  font-weight: 600;
+}
+
+h2 {
+  margin-bottom: 32px;
+  color: $primary-color;
+  font-size: 40pt;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 14pt;
+  font-weight: 400;
+  color: $secondary-color;
+}
+
+a {
+  color: $brown;
+}
+
+a:hover {
+  color: #442e00;
+}
+
+/* Form */
+
+.form-control {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  border-radius: 100px;
+  box-shadow: 10px 10px 24px -7px rgba(0, 0, 0, 0.49);
+  height: 60px;
+  padding-left: 30px;
+  max-width: 680px;
+}
+
+::-webkit-input-placeholder {
+  font-weight: 600;
+  font-size: 28px;
+}
+
+/* Card Layout */
+.card {
+  width: 240px;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 48px;
+  border-radius: 24px;
+  box-shadow: 10px 10px 24px -7px rgba(0, 0, 0, 0.2);
+}
+
+.weather-icons {
+  height: 64px;
+  width: 64px;
+  margin-top: 20px;
+  margin-bottom: 6px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.temperature {
+  color: $dark-blue;
+  font-weight: 800;
+  font-size: 64px;
+  background-color: #edf4fd;
+  padding: 24px;
+  margin-top: 16px;
+}
+
+.date {
+  color: $dark-blue;
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+// Media queries
+@import "media";

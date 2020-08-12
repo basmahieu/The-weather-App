@@ -1,1 +1,2 @@
-# The-weather-App
+# simple-calculator
+Learning Javascript

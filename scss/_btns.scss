@@ -1,0 +1,30 @@
+.btn-primary {
+  color: $brown;
+  background-color: $secondary-color;
+  font-weight: 800;
+  border: none;
+  box-shadow: 10px 10px 24px -7px rgba(0, 0, 0, 0.49);
+  margin-top: 20px;
+  width: 160px;
+  height: 60px;
+}
+
+.btn-secondary {
+  color: $brown;
+  background-color: $secondary-color;
+  margin-top: 16px;
+  margin-bottom: 24px;
+  font-weight: 800;
+  border: none;
+  padding: 12px;
+}
+
+.btn-secondary:hover {
+  color: $brown;
+  background-color: #ffd586;
+  margin-top: 16px;
+  margin-bottom: 24px;
+  font-weight: 800;
+  border: none;
+  padding: 12px;
+}
