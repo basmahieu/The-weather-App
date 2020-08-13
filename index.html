@@ -20,6 +20,7 @@
 
     <title>The weather app</title>
   </head>
+
   <body>
     <container>
       <div class="row">
@@ -31,12 +32,17 @@
 
           <h1>Drop it like it's hot?</h1>
           <input
-            class="form-control form-control-lg"
+            class="form-control form-control-lg inputValue"
             type="text"
             placeholder="City"
           />
 
-          <button type="button" class="btn btn-primary rounded-pill btn-lg">
+          <button
+            type="button"
+            class="btn btn-primary rounded-pill btn-lg button submit"
+            id="run"
+            value="Submit"
+          >
             Find out
           </button>
         </div>
@@ -45,9 +51,19 @@
           <!-- Side right -->
         </div>
       </div>
+
+      <!-- TEST -->
+      <div class="card text-center mt-4 display">
+        <img src="/img/sunny.png" alt="sunny-icon" class="weather-icons" />
+        <h3 class="desc"></h3>
+        <p class="temp temperature"></p>
+        <p class="name"></p>
+        <p class="date"></p>
+      </div>
     </container>
 
     <!-- Optional JavaScript -->
+    <script src="/js/app.js"></script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
