@@ -45,7 +45,7 @@ h2 {
 
 h3 {
   font-size: 14pt;
-  font-weight: 400;
+  font-weight: 600;
   color: $secondary-color;
 }
 
@@ -78,7 +78,6 @@ a:hover {
 /* Card Layout */
 .card {
   width: 240px;
-
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 48px;
@@ -90,7 +89,7 @@ a:hover {
   height: 64px;
   width: 64px;
   margin-top: 20px;
-  margin-bottom: 6px;
+  margin-bottom: 24px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -100,16 +99,20 @@ a:hover {
   font-weight: 800;
   font-size: 64px;
   background-color: #edf4fd;
-  padding: 24px;
+  padding: 12px;
+}
+
+.name {
   margin-top: 16px;
+  font-size: 18pt;
 }
 
 .date {
   color: $dark-blue;
   font-weight: 600;
-  font-size: 20px;
-  margin-top: 24px;
-  margin-bottom: 24px;
+  font-size: 14px;
+  margin-top: 16px;
+  margin-bottom: 16px;
 }
 
 // Media queries
