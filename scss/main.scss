@@ -4,9 +4,9 @@
 
 /* General */
 
-html {
-  height: 100%;
-}
+// html {
+//   height: 100%;
+// }
 
 body {
   font-family: "Baloo 2", cursive;
@@ -14,7 +14,7 @@ body {
 }
 
 #side-margins {
-  margin-top: 120px;
+  margin-top: 64px;
   margin-left: 4%;
   margin-right: 4%;
 }
@@ -47,6 +47,13 @@ h3 {
   font-size: 14pt;
   font-weight: 600;
   color: $secondary-color;
+}
+.name {
+  margin-top: 64px;
+  font-size: 40pt;
+  font-weight: 600;
+  color: #fff;
+  text-align: center;
 }
 
 a {
@@ -100,11 +107,6 @@ a:hover {
   font-size: 64px;
   background-color: #edf4fd;
   padding: 12px;
-}
-
-.name {
-  margin-top: 16px;
-  font-size: 18pt;
 }
 
 .date {
