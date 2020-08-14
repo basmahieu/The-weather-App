@@ -50,18 +50,15 @@ function nextDays(days) {
     let desc = document.querySelector(".desc" + [i]);
     let icon = document.querySelector(".icon" + [i]);
     let time = document.querySelector(".date" + [i]);
-    let daysNew = document.querySelector(".days" + [i]);
+    let daysNew = document.querySelector(".daysNew" + [i]);
 
     let name = document.querySelector(".name");
 
     // Days
 
-    // document.getElementById("cityname" + [i]).innerHTML = weekdag[dag];
-    // console.log(weekdag);
-
     // Get values
     let daysData = new Date(days.list[i * 8].dt_txt).getDay();
-    let daysName = weekday[daysData];
+    let daysValue = weekday[daysData];
 
     let timeValue = days["list"][i * 8]["dt_txt"];
     let nameValue = days["city"]["name"];
@@ -72,14 +69,14 @@ function nextDays(days) {
 
     icon.setAttribute("src", iconSrc);
 
-    daysNew.innerHTML = daysName;
+    daysNew.innerHTML = daysValue;
     name.innerHTML = nameValue;
     time.innerHTML = timeValue;
     temp.innerHTML = Math.round(tempValue) + "°";
     desc.innerHTML = descValue;
 
     // Check data
-    console.log(daysName);
+    console.log(daysValue);
     console.log(iconSrc);
     console.log(timeValue);
     console.log(nameValue);
