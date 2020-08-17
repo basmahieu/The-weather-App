@@ -1,3 +1,5 @@
+// THIS IS THE REAL WEATHER APP
+
 const key = "78c03489433ef311c8fcb20a6343eb5b";
 let inputValue = document.querySelector(".inputValue");
 
